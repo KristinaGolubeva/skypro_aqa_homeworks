@@ -28,3 +28,4 @@ def month_to_season2(s):
         print('Осень')
 
 month_to_season2(12)
+
