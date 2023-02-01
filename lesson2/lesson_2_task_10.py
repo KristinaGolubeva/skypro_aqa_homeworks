@@ -19,3 +19,11 @@ print(bank(100,3))
 # получается тоже 10% прибавляем? Я эту логику в голове уложить 
 # не могу, дальше такие задачи не пойдут, если не научусь сама 
 # думать так же. 
+
+def calc_deposit(sum, term):
+    for term in range (0, term):
+        sum = sum*1.1
+    return round(sum,2)
+
+print(calc_deposit(1000,9))
+
