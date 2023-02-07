@@ -8,4 +8,5 @@ class Smartphone:
         self.model = my_model
         self.number = my_number
 
-    
+    def Say(self):
+        print(self.brand, "-", self.model, ".", self.number)
